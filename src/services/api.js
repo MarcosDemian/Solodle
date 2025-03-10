@@ -3,8 +3,8 @@ const API_URL = 'https://solodleapi.up.railway.app/api/characters';
 export const login = async () => {
   try {
     const credentials = {
-      username: import.meta.env.VITE_API_USERNAME,
-      password: import.meta.env.VITE_API_USERPASSWORD,
+      username: import.meta.env.VITE_API_USERNAME.replace(/^"|"$/g, ''), // Elimina comillas al inicio y al final
+      password: import.meta.env.VITE_API_USERPASSWORD.replace(/^"|"$/g, ''), // Elimina comillas al inicio y al final
     };
 
     console.log('Credenciales enviadas:', credentials);
