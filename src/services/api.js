@@ -7,6 +7,8 @@ export const login = async () => {
       password: import.meta.env.VITE_API_USERPASSWORD,
     };
 
+    console.log('Credenciales enviadas:', credentials);
+
     const response = await fetch(`${API_URL}/login`, {
       method: 'POST',
       headers: {
