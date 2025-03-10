@@ -1,0 +1,64 @@
+.guess-input {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.character-input {
+  padding: 1rem;
+  width: 80%;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: #00000083;
+  margin-bottom: 10px;
+}
+
+.character-input:focus {
+  outline: none;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #000000e9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.suggestions li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.suggestions li:hover {
+  background-color: #00000083;
+}
+
+.list-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .suggestions {
+    max-width: 90%;
+  }
+}
