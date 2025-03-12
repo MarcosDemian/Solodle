@@ -20,8 +20,8 @@
 .character-card img {
   width: 150px;
   height: 200px;
-  border-radius: 10px;
   object-fit: cover;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 100% 100%, 10% 100%, 0 90%, 0 0);
 }
 
 .character-name {
@@ -46,7 +46,6 @@
 
 .clue-box {
   padding: 5px 10px;
-  border-radius: 5px;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -55,6 +54,7 @@
   min-width: 100px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 100% 100%, 10% 100%, 0 90%, 0 0);
 }
 
 .clue-label {

@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <>
-    <div className="app_container">
+    <div className="app-container">
       {isLoading ? (
         <div className="loading-screen">
           <div className="loading-line"></div>
