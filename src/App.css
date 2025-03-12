@@ -56,17 +56,17 @@
   height: 1px;
   width: 90%;
   background: #9a00ffd9;
-  top: 50%;
-  transform: translateY(-50%);
   animation: expandLine 1.5s ease-in-out forwards;
 }
 
 @keyframes expandLine {
   0% {
     width: 0;
+    transform: translateY(-50%);
   }
   100% {
     width: 90%;
+    transform: translateY(-50%);
   }
 }
 
@@ -75,7 +75,7 @@
     transform: translateY(-50%);
   }
   100% {
-    transform: translateY(calc(0));
+    transform: translateY(calc(-42.5vh));
   }
 }
 
@@ -84,7 +84,7 @@
     transform: translateY(-50%);
   }
   100% {
-    transform: translateY(calc(0));
+    transform: translateY(calc(41vh));
   }
 }
 

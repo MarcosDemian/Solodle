@@ -25,8 +25,8 @@ const App = () => {
         </div>
       ) : (
         <>
-          <div className="loading-line top"><div className="trapezoid t-top"></div></div>
-          <div className="loading-line bottom"><div className="trapezoid t-bottom"></div></div>
+        <div className="loading-line top"><div className="trapezoid t-top"></div></div>
+        <div className="loading-line bottom"><div className="trapezoid t-bottom"></div></div>
           <div className="game-container">
             <StaticScratches />
             <Game />
