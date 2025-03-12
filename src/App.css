@@ -112,9 +112,7 @@
 .game-container {
   position: relative;
   width: 85%;
-  height: auto;
-  max-height: 85vh;
-  flex: 1;
+  height: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
