@@ -55,11 +55,10 @@
 @media (max-width: 768px) {
   .game {
     width: 95%;
-    height: 80vh;
+    height: 95%;
   }
 
   .win-message {
     padding: 10px;
-    max-height: 70vh;
   }
 }
