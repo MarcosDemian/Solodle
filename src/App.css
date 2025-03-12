@@ -201,7 +201,7 @@
   background: #555;
 }
 
-@media (max-height: 1000px) {
+@media (max-height: 800px) {
   @keyframes splitLine {
     0% {
       transform: translateY(-50%);
