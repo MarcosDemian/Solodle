@@ -75,7 +75,7 @@
     transform: translateY(-50%);
   }
   100% {
-    transform: translateY(calc(-42.5vh));
+    transform: translateY(calc(0));
   }
 }
 
@@ -84,7 +84,7 @@
     transform: translateY(-50%);
   }
   100% {
-    transform: translateY(calc(41vh));
+    transform: translateY(calc(0));
   }
 }
 
