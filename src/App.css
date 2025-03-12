@@ -76,7 +76,6 @@
   }
   100% {
     transform: translateY(calc(5% - 45vh));
-    background-color: #ffffff00;
   }
 }
 
@@ -86,7 +85,6 @@
   }
   100% {
     transform: translateY(calc(-50% + 42.5vh));
-    background-color: #ffffff00;
   }
 }
 
@@ -201,4 +199,16 @@
 .win-message::-webkit-scrollbar-thumb:hover,
 .suggestions.guesses::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media (min-height: 1000px) {
+  @keyframes splitLine {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(calc(-43.5vh)); /* Valor ajustado para móviles */
+      background-color: #ffffff00;
+    }
+  }
 }
